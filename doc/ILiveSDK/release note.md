@@ -1,4 +1,13 @@
 ##Release Note
+###V1.0.6 (2016-12-21)
+- PC多路流(摄像头，屏幕分享)支持，影响AVRootView中接口findUserViewIndex,closeUserView,bindIdAndView,getUserAvVideoView[需传视频类型，如AVView.VIDEO_SRC_TYPE_CAMERA]
+- 优化视频请求流程
+
+###V1.0.5 (2016-12-19)
+- 修复状态未更新问题
+- 更新音视频模块
+- 添加arm-v7a支持
+
 ###V1.0.4 (2016-12-09)
 - 优化进房间后音频服务及摄像头回调相关流程
 - 优化美颜/美白接口，保证相互独立
